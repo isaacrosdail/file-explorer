@@ -1,0 +1,21 @@
+{
+  "name": "file-explorer",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "build": "node-gyp configure build",
+    "start": "electron .",
+    "dev": "npm run build && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^36.3.1"
+  },
+  "dependencies": {
+    "node-addon-api": "^8.3.1"
+  }
+}
